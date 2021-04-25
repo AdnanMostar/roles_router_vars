@@ -1,0 +1,15 @@
+---
+routers:
+  - hostname: ear1.s16
+  - interface:
+  - vrrp_value:
+  - master_or_backup:
+  - priority_value:
+  - vrrp_virt_address:
+    
+  - hostname: ear1.s17
+  - interface:
+  - vrrp_value:
+  - master_or_backup:
+  - priority_value:
+  - vrrp_virt_address:
