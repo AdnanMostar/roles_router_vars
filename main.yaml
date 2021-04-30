@@ -20,7 +20,7 @@ xe_ce_routers:
   - int_loopback_ip_address_mask: 1.1.1.1 255.255.255.255
   - int_to_pe: FastEthernet0/0
   - int_to_pe_ip_address_mask: 192.168.12.1 255.255.255.0
-  - bgp_process_no: 1
+  - bgp_process_number: 1
   - network: 1.1.1.1
   - mask: 255.255.255.255
   - neighbor: 192.168.12.2
@@ -31,7 +31,7 @@ xe_ce_routers:
   - int_loopback_ip_address_mask: 5.5.5.5 255.255.255.255
   - int_to_pe: FastEthernet0/0
   - int_to_pe_ip_address_mask: 192.168.45.5 255.255.255.0
-  - bgp_process_no: 5
+  - bgp_process_number: 5
   - network: 5.5.5.5
   - mask: 255.255.255.255
   - neighbor: 192.168.45.4
