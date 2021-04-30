@@ -16,25 +16,25 @@ xr_9k_routers:
   
 xe_ce_routers:
   - hostname: ce1
-  - loopback1.no:
-  - ip_address_loopback1.no:
-  - int_to_pe:
-  - ip_address&mask_to_pe:
-  - bgp_process_no:
-  - network:
-  - mask:
-  - neighbor:
-  - remote-as:
+  - loopback1.no: 0
+  - ip_address_loopback1.: 1.1.1.1 255.255.255.255
+  - int_to_pe: FastEthernet0/0
+  - ip_address&mask_to_pe: 192.168.12.1 255.255.255.0
+  - bgp_process_no: 1
+  - network: 1.1.1.1
+  - mask: 255.255.255.255
+  - neighbor: 192.168.12.2
+  - remote-as: 234
   
   - hostname: ce2
-  - loopback1.no:
-  - ip_address_loopback1.no:
-  - int_to_pe:
-  - ip_address&mask_to_pe:
-  - bgp_process_no:
-  - network:
-  - mask:
-  - neighbor:
-  - remote-as:
+  - loopback1.no: 0
+  - ip_address_loopback1.: 5.5.5.5 255.255.255.255
+  - int_to_pe: FastEthernet0/0
+  - ip_address&mask_to_pe: 192.168.45.5 255.255.255.0
+  - bgp_process_no: 5
+  - network: 5.5.5.5
+  - mask: 255.255.255.255
+  - neighbor: 192.168.45.4
+  - remote-as: 234
   
   
