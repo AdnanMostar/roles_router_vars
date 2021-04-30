@@ -1,5 +1,5 @@
 ---
-routers:
+xr_9k_routers:
   - hostname: ear1.s16
   - interface:
   - vrrp_value:
