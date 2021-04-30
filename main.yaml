@@ -18,6 +18,11 @@ xe_ce_routers:
   - hostname: ce1
   - loopback1.no:
   - ip_address_loopback1.no:
-  - master_or_backup:
-  - priority_value:
-  - vrrp_virt_address:
+  - int_to_pe:
+  - ip_address&mask_to_pe:
+  - bgp_process_no:
+  - network:
+  - mask:
+  - neighbor:
+  - remote-as
+  
