@@ -13,3 +13,11 @@ xr_9k_routers:
   - master_or_backup:
   - priority_value:
   - vrrp_virt_address:
+  
+xe_ce_routers:
+  - hostname: ce1
+  - loopback1.no:
+  - ip_address_loopback1.no:
+  - master_or_backup:
+  - priority_value:
+  - vrrp_virt_address:
