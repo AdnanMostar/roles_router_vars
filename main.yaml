@@ -18,23 +18,23 @@ xe_ce_routers:
   - hostname: ce1
   - int_loopback_number: 0
   - int_loopback_ip_address_mask: 1.1.1.1 255.255.255.255
-  - int_to_pe: FastEthernet0/0
+  - int_to_pe_name_number: FastEthernet0/0
   - int_to_pe_ip_address_mask: 192.168.12.1 255.255.255.0
   - bgp_process_number: 1
-  - network: 1.1.1.1
-  - mask: 255.255.255.255
-  - neighbor: 192.168.12.2
-  - remote-as: 234
+  - bgp_network_advertised: 1.1.1.1
+  - bgp_mask_advertised: 255.255.255.255
+  - bgp_neighbor: 192.168.12.2
+  - bgp_remote-as: 234
   
   - hostname: ce2
   - int_loopback_number: 0
   - int_loopback_ip_address_mask: 5.5.5.5 255.255.255.255
-  - int_to_pe: FastEthernet0/0
+  - int_to_pe_name_number: FastEthernet0/0
   - int_to_pe_ip_address_mask: 192.168.45.5 255.255.255.0
   - bgp_process_number: 5
-  - network: 5.5.5.5
-  - mask: 255.255.255.255
-  - neighbor: 192.168.45.4
-  - remote-as: 234
+  - bgp_network_advertised: 5.5.5.5
+  - bgp_mask_advertised: 255.255.255.255
+  - bgp_neighbor: 192.168.45.4
+  - bgp_remote-as: 234
   
   
