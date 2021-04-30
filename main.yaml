@@ -24,5 +24,17 @@ xe_ce_routers:
   - network:
   - mask:
   - neighbor:
-  - remote-as
+  - remote-as:
+  
+  - hostname: ce2
+  - loopback1.no:
+  - ip_address_loopback1.no:
+  - int_to_pe:
+  - ip_address&mask_to_pe:
+  - bgp_process_no:
+  - network:
+  - mask:
+  - neighbor:
+  - remote-as:
+  
   
