@@ -1,18 +1,18 @@
 ---
 xr_9k_routers:
   - hostname: ear1.s16
-  - interface:
-  - vrrp_value:
-  - master_or_backup:
-  - priority_value:
-  - vrrp_virt_address:
+  - interface: GigabitEthernet0/0/0/0
+  - vrrp_value: 130
+  - master_or_backup: master
+  - priority_value: 130
+  - vrrp_virt_address: 192.168.23.3
     
   - hostname: ear1.s17
-  - interface:
-  - vrrp_value:
-  - master_or_backup:
-  - priority_value:
-  - vrrp_virt_address:
+  - interface: GigabitEthernet0/0/0/0
+  - vrrp_value: 130
+  - master_or_backup: backup
+  - priority_value: 100
+  - vrrp_virt_address: 192.168.23.3
   
 xe_ce_routers:
   - hostname: ce1
